@@ -3,8 +3,8 @@ SHEL_RESUME_DATA = {
     'title': 'Software Engineer',
     'contact_info': [
         {'text': '+91-9400244973', 'icon': 'fas fa-phone-alt'},
-        {'text': 'Linkedin', 'href': 'https://www.linkedin.com/in/shelton-chiramal-a834931b3/', 'icon': 'fab fa-linkedin'},
-        {'text': 'Github', 'href': 'https://github.com/sheltondny', 'icon': 'fab fa-github'},
+        {'text': 'Linkedin', 'href': 'https://www.linkedin.com/in/shelton-chiramal/', 'icon': 'fab fa-linkedin'},
+        {'text': 'Github', 'href': 'https://github.com/tenshells', 'icon': 'fab fa-github'},
         {'text': 'Hackerrank', 'href': 'https://www.hackerrank.com/profile/shelton_dany', 'icon': 'fab fa-hackerrank'},
         {'text': 'shelton.dany@gmail.com', 'href': 'mailto:shelton.dany@gmail.com', 'icon': 'fas fa-envelope'}
     ],
@@ -12,7 +12,7 @@ SHEL_RESUME_DATA = {
     'skills': {
         "Programming Languages": "Python, Go, Java, Bash, SQL, LogQL",
         "Libraries and Frameworks": "Flask, FastAPI, net/http, gin, Spring Boot",
-        "Tools": "Docker, Redis, RQ, Kafka, SQS, SES, S3, EC2, Metabase, Firebase, Loki, Grafana",
+        "Tools": "Docker, Redis, RQ, Kafka, SQS, SES, S3, EC2, Celery, Metabase, Firebase, Loki, Grafana",
         "Other Skills": "REST, CI/CD, Notion, WebSockets, MLOps, DMARC, OAuth"
     },
 
@@ -42,7 +42,7 @@ SHEL_RESUME_DATA = {
             ]
         },
         {
-            'title': 'Backend Engineer',
+            'title': 'Product Engineer',
             'company': 'Whyminds.ai, Regulatory Tech',
             'time_start': 'Dec 2023',
             'time_end': 'Jan 2024',

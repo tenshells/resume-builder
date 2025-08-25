@@ -36,7 +36,7 @@ h1 {
 
 .contact-info {
     margin-top: 0;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .contact-item {
@@ -91,15 +91,24 @@ h2 {
 .job {
     margin-bottom: 10px;
     /* border: 2px solid red; */
-    display: flex column;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 10px; */
+}
+
+.job ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    /* padding: 5px; */
+    /* border: 2px solid red; */
 }
 
 .job-title {
-    font-size: 16px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 750;
     /* margin: 0; */
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     /* border: 2px solid green; */
 }
 
@@ -112,9 +121,9 @@ h2 {
 }
 
 .company {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 0;
     color: #444;
 }
 
@@ -142,7 +151,7 @@ li {
 
 .project h3 {
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 3px;
 }
 
