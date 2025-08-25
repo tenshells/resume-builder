@@ -41,11 +41,11 @@
             <h2>EXPERIENCE</h2>
             {% for job in experience %}
                 <div class="job">
-                    <h3 class="job-title">{{ job.title }}</h3>
-                    <p class="job-details">
+                    <div class="job-title">{{ job.title }}</div>
+                    <div class="job-details">
                         <span class="company">{{ job.company }}</span>
                         <span class="date-range">{{ job.time_start }} - {{ job.time_end }}</span>
-                    </p>
+                    </div>
                     <ul>
                         {% for task in job.responsibilities %}
                             <li>{{ task }}</li>
