@@ -1,18 +1,18 @@
 SHEL_RESUME_DATA = {
     'name': 'Shelton Chiramal',
-    'title': 'Software Developer',
+    'title': 'Software Engineer',
     'contact_info': [
-        {'text': '+91-9400244973'},
-        {'text': 'Linkedin', 'href': 'https://www.linkedin.com/in/shelton-chiramal-a834931b3/'},
-        {'text': 'Github', 'href': 'https://github.com/sheltondny'},
-        {'text': 'Hackerrank', 'href': 'https://www.hackerrank.com/profile/shelton_dany'},
-        {'text': 'shelton.dany@gmail.com', 'href': 'mailto:shelton.dany@gmail.com'}
+        {'text': '+91-9400244973', 'icon': 'fas fa-phone-alt'},
+        {'text': 'Linkedin', 'href': 'https://www.linkedin.com/in/shelton-chiramal-a834931b3/', 'icon': 'fab fa-linkedin'},
+        {'text': 'Github', 'href': 'https://github.com/sheltondny', 'icon': 'fab fa-github'},
+        {'text': 'Hackerrank', 'href': 'https://www.hackerrank.com/profile/shelton_dany', 'icon': 'fab fa-hackerrank'},
+        {'text': 'shelton.dany@gmail.com', 'href': 'mailto:shelton.dany@gmail.com', 'icon': 'fas fa-envelope'}
     ],
 
     'skills': {
-        "Programming Languages": "Java, Python, Golang, SQL, Bash",
-        "Libraries and Frameworks": "Spring Boot, React, Flask, net/http, FastAPI",
-        "Tools": "Jenkins, Docker, Kafka, SQS, SES, S3, EC2, BigQuery, Metabase, Grafana, Redis",
+        "Programming Languages": "Python, Go, Java, Bash, SQL, LogQL",
+        "Libraries and Frameworks": "Flask, FastAPI, net/http, gin, Spring Boot",
+        "Tools": "Docker, Redis, RQ, Kafka, SQS, SES, S3, EC2, Metabase, Firebase, Loki, Grafana",
         "Other Skills": "REST, CI/CD, Notion, WebSockets, MLOps, DMARC, OAuth"
     },
 

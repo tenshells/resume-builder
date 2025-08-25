@@ -3,6 +3,7 @@ body {
     margin: 40px;
     color: #333;
     background-color: #f9f9f9;
+    line-height: 1.1;
 }
 
 .container {
@@ -15,19 +16,19 @@ body {
 }
 
 .header {
-    text-align: left;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 32px;
     margin: 0;
-    color: #000;
+    color: #007bff;
     font-weight: 700;
 }
 
 .title {
-    font-size: 20px;
+    font-size: 18px;
     color: #444;
     margin: 0;
     font-weight: 500;
@@ -35,11 +36,11 @@ h1 {
 
 .contact-info {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .contact-item {
-    margin-right: 20px;
+    margin: 0 8px;
     display: inline-block;
 }
 
@@ -52,76 +53,91 @@ h1 {
     text-decoration: underline;
 }
 
+.contact-item i {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.fab.fa-hackerrank {
+    position: relative;
+    top: 1px;
+}
+
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    padding-bottom: 3px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     font-weight: 700;
     color: #000;
 }
 
-.skills p {
-    margin: 5px 0;
-    font-size: 14px;
+.skills ul {
+    list-style-type: disc;
+    padding-left: 15px;
+    margin-top: 5px;
 }
 
-.skills strong {
-    font-weight: 600;
-}
-
-.job {
-    margin-bottom: 15px;
-}
-
-.job-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+.skills li {
     margin-bottom: 2px;
 }
 
-.job-title {
-    font-size: 18px;
+.skills strong {
     font-weight: 700;
+}
+
+.job {
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: 16px;
+    font-weight: 800;
     margin: 0;
+}
+
+.job-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1px;
+}
+
+.company {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    color: #444;
 }
 
 .date-range {
     font-style: italic;
     color: #555;
-    font-size: 14px;
-}
-
-.company {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #444;
+    font-size: 12px;
 }
 
 ul {
-    padding-left: 20px;
+    padding-left: 15px;
     margin-top: 0;
     list-style-type: disc;
 }
 
 li {
-    margin-bottom: 4px;
-    line-height: 1.2;
+    margin-bottom: 2px;
     font-size: 14px;
+    line-height: 1;
 }
 
 .project {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .project h3 {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 3px;
 }
 
 .project p {
@@ -130,7 +146,7 @@ li {
 }
 
 .education {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .edu-header {
@@ -140,12 +156,12 @@ li {
 }
 
 .edu-header h3 {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 800;
     margin: 0;
 }
 
 .education p {
-    margin: 2px 0;
+    margin: 0;
     font-size: 14px;
 }
