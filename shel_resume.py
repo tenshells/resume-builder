@@ -1,18 +1,20 @@
 SHEL_RESUME_DATA = {
     'name': 'Shelton Chiramal',
     'title': 'Software Developer',
-    'email': 'shelton.dany@gmail.com',
-    'phone': '+91-9400244973',
-    'linkedin': 'Linkedin',  # Can add actual link if desired
-    'github': 'Github',
-    'hackerrank': 'Hackerrank',
-
-    'skills': [
-        "Programming Languages : Java, Python, Golang, SQL, Bash",
-        "Libraries and Frameworks : Spring Boot, React, Flask, net/http, FastAPI",
-        "Tools : Jenkins, Docker, Kafka, SQS, SES, S3, EC2, BigQuery, Metabase, Grafana, Redis",
-        "Other Skills : REST, CI/CD, Notion, WebSockets, MLOps, DMARC, OAuth"
+    'contact_info': [
+        {'text': '+91-9400244973'},
+        {'text': 'Linkedin', 'href': 'https://www.linkedin.com/in/shelton-chiramal-a834931b3/'},
+        {'text': 'Github', 'href': 'https://github.com/sheltondny'},
+        {'text': 'Hackerrank', 'href': 'https://www.hackerrank.com/profile/shelton_dany'},
+        {'text': 'shelton.dany@gmail.com', 'href': 'mailto:shelton.dany@gmail.com'}
     ],
+
+    'skills': {
+        "Programming Languages": "Java, Python, Golang, SQL, Bash",
+        "Libraries and Frameworks": "Spring Boot, React, Flask, net/http, FastAPI",
+        "Tools": "Jenkins, Docker, Kafka, SQS, SES, S3, EC2, BigQuery, Metabase, Grafana, Redis",
+        "Other Skills": "REST, CI/CD, Notion, WebSockets, MLOps, DMARC, OAuth"
+    },
 
     'experience': [
         {
