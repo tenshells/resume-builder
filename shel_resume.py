@@ -23,10 +23,10 @@ SHEL_RESUME_DATA = {
             'time_start': 'Jan 2025',
             'time_end': 'Apr 2025',
             'responsibilities': [
+                "Founding engineer responsible for internal tools in R&D, including system health checks, CI/CD pipelines, and automation for testing new models and configurations.",
                 "Built an event-driven system using Redis Queue (RQ) workers to generate structured memories from transcripts; "
                 "parallelized, multistage LLM calls based on token size, reducing hour-long transcript processing to ~5 seconds.",
-                "Owned the Ask Neo chat feature backend, integrating with Second Brain RAG context and supporting full memory lifecycle operations.",
-                "Founding engineer responsible for internal tools in R&D, including system health checks, CI/CD pipelines, and automation for testing new models and configurations."
+                "Owned the Ask Neo chat feature backend, integrating with Second Brain RAG context and supporting full memory lifecycle operations."
             ]
         },
         {
@@ -90,8 +90,8 @@ SHEL_RESUME_DATA = {
             'university': 'NIT Calicut',
             'year': '2021',
             'degree': 'BE/B.Tech/BS',
-            'field': 'Computer Science and Engineering',
-            'gpa': '7.01 CGPA'
+            'field': 'Computer Science and Engineering'
+            #'gpa': '7.01 CGPA'
         }
     ]
 }

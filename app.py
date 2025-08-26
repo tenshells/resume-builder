@@ -16,7 +16,7 @@ def download_resume():
     html_content = render_template('resume_template.html', **SHEL_RESUME_DATA)
     
     # Get the print CSS
-    css_path = os.path.join(app.root_path, 'static', 'print.css')
+    css_path = os.path.join(app.root_path, 'static', 'style.css')
     
     # Generate PDF with custom CSS
     pdf_filename = os.path.join(app.root_path, 'static', 'resume.pdf')
